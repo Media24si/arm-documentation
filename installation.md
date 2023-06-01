@@ -112,7 +112,7 @@ docker run --rm \
     -v $(pwd):/var/www/html \
     -v $(pwd)/../arm:/var/www/arm \
     -w /var/www/html \
-    laravelsail/php81-composer:latest \
+    laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 ```
 
